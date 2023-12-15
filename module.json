@@ -51,7 +51,7 @@
   "packs": [
     {
       "name": "supplement-garant-de-la-paix",
-      "label": "Supplément Garant de la Paix",
+      "label": "Supplement Garant de la Paix",
       "path": "packs/supplement-garant-de-la-paix",
       "type": "Item",
       "ownership": {
