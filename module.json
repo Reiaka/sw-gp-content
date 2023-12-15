@@ -1,26 +1,23 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "sw-gp-content",
+  "title": "Star Wars F&D: Garant de la paix",
   "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": "10",
+    "verified": "11",
+    "maximum": "11"
   },
   "authors": [
     {
       "name": "The League of Extraordinary FVTT Developers",
       "url": "https://github.com/League-of-Foundry-Developers",
       "discord": "discordID#0001"
+    },
+    {
+      "name": "Reiaka",
+      "discord": "reiaka"
     }
   ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
   "esmodules": [
     "scripts/module.js"
   ],
@@ -34,7 +31,8 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "languages/en.json",
+      "flags": {}
     }
   ],
   "url": "#{URL}#",
@@ -45,7 +43,22 @@
   "media": [
     {
       "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "supplement-garant-de-la-paix",
+      "label": "Supplément Garant de la Paix",
+      "path": "packs/supplement-garant-de-la-paix",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "starwarsffg"
     }
   ]
 }
